@@ -1,4 +1,4 @@
-# 🛺 Smart Rickshaw Route Planner
+# Smart Rickshaw Route Planner
 
 A Streamlit-based AI application that finds the optimal route for rickshaw drivers
 across a simulated Rawalpindi/Islamabad city road network using the **A\* (A-Star)
@@ -6,7 +6,7 @@ Informed Search Algorithm**.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Install Dependencies
 ```bash
@@ -22,20 +22,19 @@ The app will open at localhost in your browser.
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 astar_route_planner/
 │
 ├── app.py              Main working app
-├── proposal.pdf
 ├── requirements.txt    ← Python dependencies
 └── README.md           ← This file
 ```
 
 ---
 
-## 🧠 Algorithm Overview
+## Algorithm Overview
 
 ### A* Search
 - **Evaluation function:** `f(n) = g(n) + h(n)`
@@ -51,7 +50,7 @@ h(n) = sqrt((x_n - x_goal)^2 + (y_n - y_goal)^2)
 
 ---
 
-## 🗺️ Road Network
+## Road Network
 
 - **25 nodes:** Named intersections across Rawalpindi/Islamabad
   (e.g., Saddar, Committee Chowk, Faizabad, Blue Area, Bahria Town Gate...)
@@ -63,7 +62,7 @@ h(n) = sqrt((x_n - x_goal)^2 + (y_n - y_goal)^2)
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 **Query:** Saddar → Blue Area, Evening Rush
 
