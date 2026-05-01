@@ -20,13 +20,10 @@ streamlit run app.py
 
 The app will open at localhost in your browser.
 
-### 3. Select the source
-
-### 4. Select the destination
-
-### 5. Select the time
-
-### 6. Press the 'FInd Optimal Route' button
+### 3: Select the Starting Point from the sidebar dropdown
+### 4: Select the Destination from the sidebar dropdown
+### 5: Select the Traffic Condition (Off-Peak / Morning Rush / Evening Rush)
+### 6: Press the 'Find Optimal Route' button
 
 ---
 
