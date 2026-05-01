@@ -83,6 +83,5 @@ h(n) = sqrt((x_n - x_goal)^2 + (y_n - y_goal)^2)
 
 ## 🛠️ Technical Notes
 
-- All code follows OOP principles with separate classes for graph, solver, and visualizer
 - Input validation handles same-source/destination and disconnected graph cases
 - Traffic weights are multiplied onto base edge distances at graph construction time
