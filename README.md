@@ -20,6 +20,14 @@ streamlit run app.py
 
 The app will open at localhost in your browser.
 
+### 3. Select the source
+
+### 4. Select the destination
+
+### 5. Select the time
+
+### 6. Press the 'FInd Optimal Route' button
+
 ---
 
 ## File Structure
